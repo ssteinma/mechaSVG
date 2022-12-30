@@ -20,7 +20,7 @@ class Preferences:
 		self.linux_command = "inkscape ./.E_profile.svg" # Please note .E_profile.svg is a hidden file!
 		self.command_line = self.windons_command if os.name == "nt" else self.linux_command
 		# SVG colors
-		self.menu_a = ["grey","black","blue","darkblue","red","darkred","green","darkgreen"]
+		self.menu_a = ["steelblue","black","cornflowerblue","lightseagreen","darkblue","orangered","darkred","deeppink","darkgreen"]
 		#SVG line widths
 		self.menu_b = ["2","3","4","5","6"]
 		#SVG line stiles
